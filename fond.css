@@ -1,0 +1,141 @@
+/*========================================================*/
+/*top bloc*/
+.logo{
+  position: fixed;
+  top:0px;
+}
+/*========================================================*/
+
+/*========================================================*/
+.blocp{
+  position: absolute;
+
+  top:0;
+  left:0;
+  background: black;
+  width: 100%;
+  height: 150px;
+}
+/*========================================================*/
+/*bloc quote*/
+.blocq{
+  text-align: center;
+
+  border-color: black;
+  border-style: groove;
+  border-width: 5px;
+  width: 1500px;
+  position: relative;
+  top:150px;
+  left: 50%;
+  transform: translate(-50%);
+}
+/*========================================================*/
+.title{
+  position: absolute;
+  color: #ff5000;
+  font-family: cursive;
+
+  top:35px;
+  left: 50%;
+  transform: translate(-50%);
+
+  border-left: 9px;
+  border-left-style: double;
+
+  border-right: 9px;
+  border-right-style: double;
+}
+
+
+/*========================================================*/
+.bloc1{
+  position: relative;
+  padding: 5px 0 2em 2em;
+  top: 175px;
+
+  left:150px;
+}
+
+.bloc2{
+  position: relative;
+  padding: 5px 0 2em 2em;
+  top: 175px;
+
+  left:300px;
+
+}
+
+.bloc3{
+  position: relative;
+  padding: 5px 0 2em 2em;
+  top: 175px;
+
+  left:450px;
+}
+/*========================================================*/
+/*SOCIAL MEDIA OF TEAM APOCS*/
+
+.linksapocs{
+  position: absolute;
+  top:70%;
+  left: 50%;
+  transform: translate(-50%);
+
+  border-bottom-style: solid;
+  border-color: #ff5000;
+  font-family: cursive;
+}
+
+.social{
+  position: relative;
+  top: 250px;
+  left: 40%;
+
+}
+.discordlogo{
+  margin-right: 20px;
+}
+
+.guildedlogo{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.instalogo{
+  margin-left: 20px;
+}
+
+
+/*========================================================*/
+
+/*footer bloc*/
+.blocf{
+  position: relative;
+  border-top-style: dashed;
+  bottom: -290px;
+  border-width: 2px;
+}
+.foot{
+  position: absolute;
+  right: 0px;
+  margin-right: 5px;
+  bottom: 10px;
+}
+.link{
+  position: absolute;
+  left:0px;
+  bottom: 10px;
+
+}
+/*========================================================*/
+
+
+
+/*responsive design part babey*/
+@media screen and (max-width: 700px) {
+
+
+
+
+}
